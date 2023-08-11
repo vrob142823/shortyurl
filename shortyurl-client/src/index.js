@@ -6,14 +6,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { initializeApp } from "firebase/app";
 
+// Configure firebase using your information
 const firebaseConfig = {
-  apiKey: "AIzaSyC3cHuexQe2tVRo7-qoOQzv409jeg1TuaA",
-  authDomain: "url-shortener-demo-6f0a4.firebaseapp.com",
-  projectId: "url-shortener-demo-6f0a4",
-  storageBucket: "url-shortener-demo-6f0a4.appspot.com",
-  messagingSenderId: "410997107813",
-  appId: "1:410997107813:web:33cc42f5754b224ffbea8c",
-  measurementId: "G-XD5XPRQW7V"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 initializeApp(firebaseConfig);
